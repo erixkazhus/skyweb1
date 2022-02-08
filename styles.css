@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap");
+
+
+@media (max-width: 767px){
+header nav {
+    display: none;
+ } 
+}
+@media (max-width: 767px){
+.header-logo {
+    margin: 10px auto;
+}
+
+}
+@media screen and (max-width: 1200px) {
+    .column {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .shirt {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .palermo {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .price {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .cart button{
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .section{
+      width: 90%;
+    }
+  }
+
+
+.vertical {
+    border-left: 1px solid white;
+    height: 15px;    
+    left: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.nav{
+    background-color:black;
+    display: flex;
+    justify-content: flex-end;    
+    width: 100%;    
+
+}
+html header {
+    margin:0;
+    padding:0;
+}
+
+.signin{
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: Dosis Pro,sans-serif;        
+ 
+}
+.join{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 150px;    
+}
+
+.topnav a {
+    float: left;
+    color: #787878;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;    
+    font-weight: 400;
+    background-color: transparent;
+    font-family: Source Sans Pro,sans-serif;
+    line-height: 1.9;
+    box-sizing: border-box;
+    
+  }
+  header {
+    
+    z-index: 1;
+    position: fixed;
+    padding: 0 30px;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.shopbag {
+    width:50px;
+    height:50px;
+    float:right;
+    display:flex;
+    margin-right: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.shirt{  
+   
+    max-width:80%px;
+    max-height:470px;
+    padding-top: 180px;
+    padding-left: 680px;
+}
+.palermo{
+    float:right;
+    margin-right:570px;       
+    padding-top:120px;
+    color: rgba(113, 113, 113, 0.838);
+    font-size: 26px;    
+    font-weight: 100;
+    background-color: transparent;
+    font-family: Source Sans Pro,sans-serif;
+    font-style: oblique;
+}
+.price{
+    float:right;
+    margin-right: -43px;   
+    padding-top:180px;
+    color: rgba(142, 142, 142, 0.784);
+    font-size: 26px;    
+    font-weight: 100;
+    background-color: transparent;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+}
+
+.fitlogo{
+    width: 35px;
+    height: 35px;
+    margin-top:360px;
+    margin-right: -150px;
+    float: right; 
+   
+}
+.fit{
+    float:right;
+    text-align: right;    
+    margin-top: 362px;
+     margin-right: -340px;
+    font-size: 20px; 
+    background-color: transparent;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    color: rgba(164, 164, 164, 0.674);       
+    font-weight: 100;
+}
+.main-nav{
+    display :inline-block;
+    float:right;
+    margin-right: 100px;
+
+}
+.scilogo{
+    width: 35px;
+    height: 35px;
+    margin-top:408px;
+    margin-right: -150px;
+    float: right;
+    border-radius: 50%;    
+    border: 0.01px solid rgba(164, 164, 164, 0.263);
+
+}
+.sewn{
+    float:right;
+    text-align: right;     
+    margin-top: 410px;
+     margin-right: -410px;
+    font-size: 20px; 
+    background-color: transparent;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    color: rgba(164, 164, 164, 0.674);       
+    font-weight: 100; 
+}
+.box{
+    float:right;
+    text-align: right;     
+    margin-top: 460px;
+     margin-right: -514px;
+    font-size: 20px; 
+    background-color: transparent;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    color: rgba(164, 164, 164, 0.674);       
+    font-weight: 100; 
+}
+.devlogo {
+    width: 45px;
+    height: 45px;
+    margin-top:460px;
+    margin-right: -155px;
+    float: right;
+   
+    
+}
+.datespan{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900px;
+    color: rgb(121, 121, 121); 
+}
+.cart button {
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    outline: 0;    
+    color: white;
+    background-color: rgb(2, 10, 74);    
+    cursor: pointer;
+    width: 36%;
+    padding-top:10px;
+    padding-left: 405px;
+    padding-right: 405px;
+    padding-bottom:10px;
+    font-size: 18px;
+    margin-right: -920px;
+    text-align: center;
+    float: right;    
+    margin-top:580px;   
+    
+  }
+  
+section{
+      
+      width:80%;
+      margin: 0 auto;
+      float: right;
+      margin-right: -750px;
+  }
+.accord{  
+    max-width: 40%;    
+    margin-top:2px;  
+    
+    border-bottom: 3px solid rgba(176, 176, 176, 0.455);
+    cursor:pointer;
+  }
+.question{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+  }
+.question h6{
+   font-size:18px;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition:max-height 1.4s ease;
+}
+.answer p {
+   padding-top:1rem;
+   line-height: 1.6;
+   font-size: 1.4rem; 
+}
+.accord.active .answer {
+    max-height: 300px;
+    animation : fade 1s ease-in-out;  
+   
+}
+.accord.active svg {
+    transform:rotate(180deg);
+    
+}
+svg {
+    
+    transition: transform .5s ease-in;
+}
+@keyframes fade{
+      from{
+          opacity: 0;
+          transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+  }
+  
